@@ -1,0 +1,19 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.background-color-primary {
+  background-color: rgb(81, 194, 156);
+}
+
+.background-color-primary-ligth {
+  background-color: rgb(141, 192, 175);
+}
+
+.layaout-padding-top {
+  padding-top: 3.4em;
+}
