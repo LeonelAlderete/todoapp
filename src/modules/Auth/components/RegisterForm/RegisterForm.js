@@ -25,13 +25,13 @@ export default function RegisterForm() {
   return (
     <>
       {/* Titulo */}
-      <div className="mt-5 text-center">
+      <div className="text-center">
         <h2>Crear una nueva cuenta</h2>
       </div>
 
       {/* Avatar Auth */}
       <div className="text-center mt-2 mb-4">
-        <img src={avatar1} className="img-fluid" width={150} alt="" />
+        <img src={avatar1} className="img-fluid" width={200} alt="" />
       </div>
 
       {/* Formulario */}
@@ -141,7 +141,7 @@ const GoogleOrGuestLogin = (props) => {
   const { disableButton, onClickGoogleButton } = props;
 
   return (
-    <>
+    <div className="container">
       {/* Titulo Login Google */}
       <div className="text-center mt-1">
         <p>Registrarse con:</p>
@@ -163,6 +163,6 @@ const GoogleOrGuestLogin = (props) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };

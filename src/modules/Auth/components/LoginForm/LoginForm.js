@@ -76,15 +76,15 @@ export default function LoginForm() {
   };
 
   return (
-    <>
+    <div>
       {/* Titulo */}
-      <div className="mt-5 text-center">
+      <div className="text-center">
         <h2>Ingresa con tu cuenta</h2>
       </div>
 
       {/* Avatar Auth */}
       <div className="text-center mt-2 mb-4">
-        <img src={avatar1} className="img-fluid" width={150} alt="" />
+        <img src={avatar1} className="img-fluid" width={200} alt="" />
       </div>
 
       {/* Formulario */}
@@ -108,7 +108,7 @@ export default function LoginForm() {
         onClickGoogleButton={onClickGoogleButton}
         onClickLoginGuest={onClickLoginGuest}
       />
-    </>
+    </div>
   );
 }
 
@@ -198,9 +198,9 @@ const Form = (props) => {
 const GoogleOrGuestLogin = (props) => {
   const { disableButton, onClickGoogleButton, onClickLoginGuest } = props;
   return (
-    <>
+    <div className="container mt-1">
       {/* Titulo Login Google */}
-      <div className="text-center mt-1">
+      <div className="text-center">
         <p>Ingresar con:</p>
       </div>
 
@@ -234,6 +234,6 @@ const GoogleOrGuestLogin = (props) => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
